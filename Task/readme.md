@@ -25,4 +25,8 @@
     create an img on html file yourself and give an id
     set src for this img from JS file like this: 
         img.src = githubUser.avatar_url;
-    
+
+12) Create a function with "async" and into that create try & catch
+    blocks. 
+    On try, try to fetch data from "http://no-such-url"
+    On catch, alert this message: "There is no such a url!"
